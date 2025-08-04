@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pdb
+*.egg-info/
+*.egg
+*.log
+
+# Virtual environment
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Django migrations
+**/migrations/*.pyc
+**/migrations/*.pyo
+**/migrations/*.pyd
+**/migrations/*.py[cod]
+**/migrations/__pycache__/
+**/migrations/*.log
+**/migrations/*.sqlite3
+**/migrations/*.bak
+
+# SQLite database
+db.sqlite3
+
+# VSCode / IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Coverage reports
+htmlcov/
+.coverage
+.tox/
+.nox/
+.cache
+coverage.xml
+
+# Static & Media files (optional, if you're not storing them in repo)
+staticfiles/
+media/
+
+# Env files (credentials/secrets)
+.env
+.env.local
+.env.production
+.env.development
+
+# pytest cache
+.pytest_cache/
+
+# Pycharm
+*.iml
